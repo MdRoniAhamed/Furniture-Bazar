@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'signup',
     'store',
     'contact',
+    'searching',
+    
+    'about'
 ]
 
 MIDDLEWARE = [
@@ -92,7 +95,7 @@ DATABASES = {
         'PASSWORD':'',
         'HOST': 'localhost',
         'PORT': '3306',
-        'OPTIONS': {'charset': 'utf8mb4'},
+        'OPTIONS': {'sql_mode': 'traditional'},
     }
 }
 
